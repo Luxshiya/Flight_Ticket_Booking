@@ -1,0 +1,13 @@
+
+// Home Route
+Route::get('/', 'HomeController@index')->name('home');
+
+booking migration
+ $table->foreignId('passenger_id')->constrained('passengers')->onDelete('cascade');
+
+
+ app.blade
+  <li><a href="{{ route('about') }}">About</a></li>
+          <li><a href="{{ route('services') }}">Services</a></li>
+          <li><a href="{{ route('team') }}">Team</a></li>
+          <li><a href="{{ route('contact') }}">Contact</a></li>
